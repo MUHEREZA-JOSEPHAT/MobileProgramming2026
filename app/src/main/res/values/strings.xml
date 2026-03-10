@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NdejjeWelcomeApp</string>
+    <string name="studnet_name">MUHEREZA JOSEPHAT</string>
+    <string name="programme">Bachelor Of Computer Science</string>
+    <string name="reg_nunmber">REG NO.:</string>
+    <string name="regno">" 25/2/306/D/3107"</string>
 </resources>
