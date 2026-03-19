@@ -16,6 +16,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
@@ -153,6 +154,7 @@ fun StudentDirectory(){
                     .padding(16.dp),
                 placeholder = { Text("Search Student") },
                 leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) },
+                trailingIcon = {Icon(Icons.Default.Person, contentDescription = null)},
                 shape = RoundedCornerShape(12.dp),
 
             )
@@ -166,13 +168,3 @@ fun StudentDirectory(){
 
 }
 
-
-
-@Preview(showBackground = true,
-    showSystemUi = true)
-@Composable
-fun NdejjePreview(){
-    NdejjeWelcomeAppTheme{
-
-    }
-}
